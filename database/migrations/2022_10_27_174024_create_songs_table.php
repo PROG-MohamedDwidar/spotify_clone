@@ -13,12 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('playlists', function (Blueprint $table) {
+        Schema::create('songs', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->bigInteger('user_id');
-            $table->boolean('public')->nullable()->default(false);
-            $table->string('cover', 100)->nullable()->default('text');
+            $table->string('title');
+            $table->bigInteger('author_id');
+            $table->string('cover',150);
+            $table->integer('duration')->unsigned()->nullable();
+            $table->boolean('explicit')->nullable()->default(false);
+            $table->string('track',150);
             $table->timestamps();
         });
     }
@@ -30,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('playlists');
+        Schema::dropIfExists('songs');
     }
 };
