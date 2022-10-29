@@ -1,9 +1,7 @@
 <p align="center">
   <img src="./public/storage/main/logo_original.svg" height="300" />
 </p>  
-<p bold align="center">  
-  --under development--  
-</p>  
+# <p align="center">--under development--</p>  
 ## spotify clone project:  
 For educational purposes ONLY  
   
