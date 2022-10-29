@@ -1,3 +1,4 @@
+<img src="./public/storage/main/logo_original.svg">
 # --under development--  
 ## spotify clone project:  
 For educational purposes ONLY  
