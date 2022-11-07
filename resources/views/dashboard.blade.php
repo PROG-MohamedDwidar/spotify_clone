@@ -8,10 +8,12 @@
         </h2>
     </x-slot> --}}
 
-    <div class="h-4/5 flex bg-grey-200">
+    <div class="inline-block flex h-5/6 bg-red-200">
         playlists
     </div>
-    <div class="h-1/5 bg-red-200">
-        player
+    <div class="inline-block h-1/6 w-full">
+        <x-player.player>
+            
+        </x-player.player>
     </div>
 </x-app-layout>
