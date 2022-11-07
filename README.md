@@ -6,7 +6,8 @@
 For educational purposes ONLY  <br>
   
 ## Requirements:  <br>  
-  - laravel    <br>
+  - Composer "for installing the next requirements" <br>
+  - laravel "obviously the framework the project uses"   <br>
   - breeze "for managing authentication and registeration"   <br>
   - node js  "required for using breeze"  <br>
   - npm  "required for using breeze"  <br>
