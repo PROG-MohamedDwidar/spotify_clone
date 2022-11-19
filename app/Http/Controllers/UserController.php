@@ -10,5 +10,7 @@ use App\Models\Playlist;
 
 class UserController extends Controller
 {
-    //
+    public function donate(){
+        return view('users.donate');
+    }
 }

@@ -16,7 +16,7 @@ use App\Http\Controllers\userController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/dashboard');
 });
 
 Route::get('/dashboard', function () {
@@ -28,6 +28,7 @@ require __DIR__.'/auth.php';
 
 
 Route::get('/playlists',  [PlaylistController::class, 'index'])->name('playlists.index');
+Route::get('/donate',  [userController::class, 'donate'])->name('users.donate');
 // Route::get('/users/{id}/edit',  [UserController::class, 'edit'])->name('users.edit');
 // Route::put('/users/{id}',  [UserController::class, 'update'])->name('users.update');
 // Route::post('/users/{id}/follow',  [UserController::class, 'follow'])->name('users.follow');

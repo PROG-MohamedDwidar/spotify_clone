@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="140" height="157">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="60" height="38">
 
-<g transform="matrix(0.06993319 0 0 0.06993319 0.06681727 -0)">
+<g transform="matrix(0.029844098 0 0 0.029844098 0.1559019 -0)">
 	<g transform="matrix(9.089068 0 0 9.089068 1.3977803 8.261117)">
 		<g transform="matrix(1 0 0 1 -0.0120171225 -0.1)">
 			<g transform="matrix(0.5562905 0 0 0.5562905 8.4883195E-06 -0)">
-				<g transform="matrix(1 0 0 1 0 267.01404)">
+				{{-- <g transform="matrix(1 0 0 1 0 267.01404)">
 					<g transform="matrix(1 0 0 1 0 0)">
 						<g transform="matrix(1 0 0 1 0 0)">
 							<g transform="matrix(2.656027 0 0 2.656027 -10.559953 92.960945)">
@@ -19,7 +19,7 @@
 							</g>
 						</g>
 					</g>
-				</g>
+				</g> --}}
 				<g transform="matrix(1 0 0 1 75.54432 0)">
 					<g>
 					</g>

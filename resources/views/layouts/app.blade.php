@@ -25,7 +25,7 @@
         
     </head>
     
-    <body class="font-sans antialiased max-h-full h-full ">
+    <body class="font-sans antialiased max-h-full h-full prevent-select">
         <div class=" h-full bg-gray-100 flex flex-col" >
             <div style="display: inline-block;height:8.5%">
             @include('layouts.navigation')
@@ -40,7 +40,7 @@
             @endif --}}
 
             <!-- Page Content -->
-            <main class="inline-block " style="display: inline-block;height:91.5%;">
+            <main class="inline-block bg-gray-800" style="display: inline-block;height:91.5%;">
                 {{ $slot }}
             </main>
         </div>

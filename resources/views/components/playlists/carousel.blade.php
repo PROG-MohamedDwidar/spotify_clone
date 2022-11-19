@@ -41,7 +41,7 @@
     
 </div>
 
-<div class="">
+<div class="text-zinc-300">
     <p class="font-bold text-3xl" id="curCarDat">aasdsdas</p>
     <p class="text-xl" id="curCarDes">description</p>
     <div class="flex flex-row font-bold text-xl">
@@ -50,7 +50,7 @@
     </div>
 </div>
 
-<div id="carouselData" class="hidden">
+<div id="carouselData" class="hidden ">
     <p id="d-0">معاك في الزحمة</p>
     <p id="d-1">best of avicii</p>
     <p id="d-2">best of ado</p>

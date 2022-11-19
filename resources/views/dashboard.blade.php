@@ -1,6 +1,6 @@
-@php
+{{-- @php
     $player="player";
-@endphp
+@endphp --}}
 
 <x-app-layout>
     <x-slot name="title">
@@ -20,25 +20,33 @@
             </div>
             <div class="inline-block w-2/3 h-full overflow-y-scroll">
                 <x-playlists.playlist-container>
-
+                    <x-slot name="playlistTitle">
+                        New
+                    </x-slot>
                 </x-playlists.playlist-container>
                 <x-playlists.playlist-container>
-
+                    <x-slot name="playlistTitle">
+                        calm
+                    </x-slot>
                 </x-playlists.playlist-container>
                 <x-playlists.playlist-container>
-
+                    <x-slot name="playlistTitle">
+                        study time
+                    </x-slot>
                 </x-playlists.playlist-container>
                 <x-playlists.playlist-container>
-
+                    <x-slot name="playlistTitle">
+                        sleep time
+                    </x-slot>
                 </x-playlists.playlist-container>
             </div>
         </div>
-        <div class="inline-block w-full bg-red-200 " style="height:17.0%;">    
+            
             
             <x-player.player>
                 
             </x-player.player>
            
-        </div>
+        
     </div>
 </x-app-layout>
