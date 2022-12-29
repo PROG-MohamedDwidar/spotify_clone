@@ -14,7 +14,8 @@
     <div class="h-full overflow-hidden flex flex-col">
         <div class="inline-block flex flex-row" style="height:83%;">
             <div class="inline-block w-1/3  h-full">
-                <x-playlists.carousel>
+                
+                <x-playlists.carousel :playlists='$playlists'>
 
                 </x-playlists.carousel>
             </div>

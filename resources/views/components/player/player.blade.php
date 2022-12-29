@@ -17,7 +17,7 @@
                     <div class="m-auto">
                         <button class="mt-4 mx-8"><i class="fas fa-random fa-lg"></i></button>
                         <button class="mt-4 mx-8"><i class="fas fa-backward fa-lg"></i></button>
-                        <button class="mt-4 mx-8"><i class="fas fa-play fa-lg"></i></button>
+                        <button class="mt-4 mx-8" onclick="play(this)"><i  class="fas fa-play fa-lg"></i></button>
                         <button class="mt-4 mx-8"><i class="fas fa-forward fa-lg"></i></button>       
                         <button class="mt-4 mx-8"><i class="fas fa-repeat fa-lg"></i></button>
                     </div>

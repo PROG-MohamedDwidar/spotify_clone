@@ -5,3 +5,4 @@ export function changeCarouselText(position)
     curCarDat.innerText=dat.innerText;
     console.log(position);
 }
+

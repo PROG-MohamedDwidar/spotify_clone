@@ -10,7 +10,11 @@ use App\Models\Playlist;
 
 class UserController extends Controller
 {
-    public function donate(){
+    public function getDonationPage(){
         return view('users.donate');
+    }
+
+    public function submitDonation(){
+        return redirect()->route('dashboard');
     }
 }

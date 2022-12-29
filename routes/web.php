@@ -16,19 +16,19 @@ use App\Http\Controllers\userController;
 */
 
 Route::get('/', function () {
-    return redirect('/dashboard');
+    return redirect()->route('dashboard');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard',[PlaylistController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
 
 require __DIR__.'/auth.php';
 
 
 
 Route::get('/playlists',  [PlaylistController::class, 'index'])->name('playlists.index');
-Route::get('/donate',  [userController::class, 'donate'])->name('users.donate');
+Route::get('/spotify/callback/',  [PlaylistController::class, 'test'])->name('testt');
+Route::get('/donate',  [userController::class, 'getDonationPage'])->name('users.donate');
+Route::post('/donate',  [userController::class, 'submitDonation'])->name('users.submitDonation');
 // Route::get('/users/{id}/edit',  [UserController::class, 'edit'])->name('users.edit');
 // Route::put('/users/{id}',  [UserController::class, 'update'])->name('users.update');
 // Route::post('/users/{id}/follow',  [UserController::class, 'follow'])->name('users.follow');

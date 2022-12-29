@@ -1,21 +1,21 @@
 <div class="max-w-2xl mx-auto my-0.5">
 
-	<div id="default-carousel" class="relative" data-carousel="slide">
+	<div id="default-carousel  pt-3.5" class="relative" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96  ">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 {{-- <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span> --}}
-                <img src="{{asset("storage/covers/zahma.jpg")}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{$playlists[0]['images'][0]['url']}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset("storage/covers/avicii.jpg")}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{$playlists[1]['images'][0]['url']}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://i.scdn.co/image/ab67616d00001e0289e3b38cb86ef8cfb0cd8def" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{$playlists[2]['images'][0]['url']}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -51,7 +51,7 @@
 </div>
 
 <div id="carouselData" class="hidden ">
-    <p id="d-0">معاك في الزحمة</p>
-    <p id="d-1">best of avicii</p>
-    <p id="d-2">best of ado</p>
+    <p id="d-0">{{$playlists[0]['name']}}</p>
+    <p id="d-1">{{$playlists[1]['name']}}</p>
+    <p id="d-2">{{$playlists[2]['name']}}</p>
 </div>

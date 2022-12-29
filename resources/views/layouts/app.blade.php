@@ -15,6 +15,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <script src="{{asset('js/flowbite.js')}}" type="module" defer></script>
         <script src="{{ asset('js/scripts.js') }}" type="module" defer></script>
+        <script src="{{ asset('js/validation.js') }}" defer></script>
         <!-- Styles -->
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
