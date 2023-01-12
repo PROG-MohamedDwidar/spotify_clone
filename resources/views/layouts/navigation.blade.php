@@ -26,6 +26,12 @@
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
+                <div class="text-white mx-1  ">
+                    <form action="{{route('users.donors')}}">
+                        @csrf
+                        <button type="submit"><i class="fas fa-heart"></i> doners</button>
+                    </form>
+                </div>
                 <div class="text-white mx-8  ">
                     <form action="{{route('users.donate')}}">
                         @csrf

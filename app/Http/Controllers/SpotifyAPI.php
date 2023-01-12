@@ -71,7 +71,7 @@ class SpotifyAPI extends Controller
                 'Authorization' => 'Bearer '.$token,
                 'Content-Type' => 'application/json'
             ])->get('https://api.spotify.com/v1/browse/featured-playlists',[
-                "country"=>"ES"
+                // "country"=>"ES"
             ]);     
         //dd()  ;
         //dd($response->json());

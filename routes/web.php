@@ -29,6 +29,8 @@ Route::get('/playlists',  [PlaylistController::class, 'index'])->name('playlists
 Route::get('/spotify/callback/',  [PlaylistController::class, 'test'])->name('testt');
 Route::get('/donate',  [userController::class, 'getDonationPage'])->name('users.donate');
 Route::post('/donate',  [userController::class, 'submitDonation'])->name('users.submitDonation');
+Route::get('/donors',  [userController::class, 'getDonors'])->name('users.donors');
+
 // Route::get('/users/{id}/edit',  [UserController::class, 'edit'])->name('users.edit');
 // Route::put('/users/{id}',  [UserController::class, 'update'])->name('users.update');
 // Route::post('/users/{id}/follow',  [UserController::class, 'follow'])->name('users.follow');
